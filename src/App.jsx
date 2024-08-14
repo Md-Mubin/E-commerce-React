@@ -6,6 +6,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Account from './component/Account'
 import Contact from './component/Contact'
 import NopageFound from './component/NopageFound'
+import About from './component/About'
 
 function App() {
 
@@ -13,10 +14,11 @@ function App() {
     createRoutesFromElements(
       <Route>
         <Route path='/'             element={<Home/>}/>
+        <Route path='/Contact'      element={<Contact/>}/>
+        <Route path='/About'        element={<About/>}/>
         <Route path='/Sign_Up'      element={<Sign_up/>}/>
         <Route path='/Log_In'       element={<Log_in/>}/>
         <Route path='/My_Account'   element={<Account/>}/>
-        <Route path='/Contact'      element={<Contact/>}/>
         <Route path='*'             element={<NopageFound/>}/>
       </Route>
     )

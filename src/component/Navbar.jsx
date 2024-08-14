@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import Scrolltotop from './Scrolltotop';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faUser } from '@fortawesome/free-regular-svg-icons';
-import { faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark, faHeart, faPenToSquare, faStar, faUser } from '@fortawesome/free-regular-svg-icons';
+import { faArrowRightFromBracket, faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <li className='font-normal text-[16px] group/contact relative hover:scale-110'><Link to="/Contact">Contact</Link>
                         <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/contact:scale-125 transition duration-200 '></span>
                     </li>
-                    <li className='font-normal text-[16px] relative group/about hover:scale-110'><a href="#">About</a>
+                    <li className='font-normal text-[16px] relative group/about hover:scale-110'><Link to="/About">About</Link>
                         <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/about:scale-125 transition duration-200 '></span>
                     </li>
                     <li className='font-normal text-[16px] group/sign relative hover:scale-110'><Link to="/Sign_Up">Sign Up</Link>
@@ -55,9 +55,13 @@ const Navbar = () => {
                     {/* =========== for icon =========== */}
                     <li className='text-[22px] cursor-pointer hover:text-red-400'><FontAwesomeIcon icon={faHeart} /></li>
                     <li className='text-[22px]'><a href="#"><FontAwesomeIcon icon={faCartShopping} /></a></li>
-                    <li className='w-8 h-8 rounded-full flex justify-center items-center hover:bg-red-400 hover:text-white relative cursor-pointer group/profile'><FontAwesomeIcon icon={faUser} />
-                        <ul className='w-[225px] h-[210px] bg-[#74778dd3] absolute top-9 right-0 rounded-lg p-5 scale-0 group-hover/profile:scale-100 transition duration-200 origin-top-right'>
-                            <li className='text-white'><Link to='/My_Account'>Manage My Account</Link></li>
+                    <li className='w-8 h-8 rounded-full flex justify-center items-center hover:bg-red-400 hover:text-white relative group/profile'><FontAwesomeIcon icon={faUser} />
+                        <ul className='w-[225px] h-[210px] bg-[#83889cab] backdrop-blur-md absolute top-9 right-0 rounded-lg p-5 scale-0 group-hover/profile:scale-100 transition duration-200 origin-top-right flex flex-col gap-2'>
+                            <Link to='/My_Account' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faUser} className='mr-2 '/> Manage My Account</Link>
+                            <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faPenToSquare} className='mr-2 '/> My Order</a>
+                            <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faCircleXmark} className='mr-2 '/> My Cancellations</a>
+                            <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faStar} className='mr-2 '/> My Reviews</a>
+                            <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faArrowRightFromBracket} className='mr-2 '/> Logout</a>
                         </ul>
                     </li>
                 </ul>

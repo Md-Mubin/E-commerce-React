@@ -57,7 +57,7 @@ const Account = () => {
             <input type="text" placeholder='New Passwod' className='w-full h-[50px] bg-slate-100 rounded mt-4 pl-4 outline-none'/>
             <input type="text" placeholder='Confirm New Passwod' className='w-full h-[50px] bg-slate-100 rounded mt-4 pl-4 outline-none'/>
           </ul>
-          <button className='w-full flex justify-end items-center gap-2'>
+          <button className='w-full flex justify-end items-center gap-2 mt-8'>
             <a href="#" className=' text-black hover:text-red-400 mr-4'>Cancel</a>
             <a href="#" className='w-[215px] h-[50px] flex justify-center items-center text-white bg-red-400  hover:bg-red-600 rounded-2xl'>Save Changes</a>
           </button>
