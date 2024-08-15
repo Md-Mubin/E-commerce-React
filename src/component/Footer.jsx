@@ -2,6 +2,9 @@ import React from 'react'
 import QrCode from '../assets/Qr Code.png'
 import FooterGooglePlay from '../assets/GooglePlay.png'
 import FooterApple from '../assets/AppStore.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
@@ -12,7 +15,10 @@ const Footer = () => {
                         <li className='text-2xl font-bold'>Exclusive</li>
                         <li>Subscribe</li>
                         <li>Get 10% off your first order</li>
-                        <input type="text" placeholder='Enter your email' className='rounded-lg bg-transparent border-white py-3 pl-3'/>
+                        <li className='relative'>
+                            <input type="text" placeholder='Enter your email' className='w-[250px] rounded-lg bg-transparent outline-none border-2 py-3 pl-3 ' />
+                            <FontAwesomeIcon icon={faLocationArrow} className='absolute top-[20px] right-[-10px]'/>
+                        </li>
                     </ul>
                     <ul className='w-[175px] flex flex-col gap-4'>
                         <li className='text-xl font-medium'>Support</li>
@@ -41,16 +47,16 @@ const Footer = () => {
                             <ul className='pt-[10px] flex'>
                                 <img src={QrCode} alt="Qr_code" />
                                 <ul>
-                                    <a href="#"><img src={FooterGooglePlay} alt="google_play" className='hover:scale-105'/></a>
+                                    <a href="#"><img src={FooterGooglePlay} alt="google_play" className='hover:scale-105' /></a>
                                     <a href="#"><img src={FooterApple} alt="apple_store" className='hover:scale-105' /></a>
                                 </ul>
                             </ul>
                         </li>
-                        <ul className='mt-6 flex gap-6 '>
-                            <li><a href="#">f</a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                        <ul className='mt-6 flex justify-between text-[30px] '>
+                            <li><a href="#" className='hover:text-blue-400'><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                            <li><a href="#" className='hover:text-sky-400'><FontAwesomeIcon icon={faTwitter} /></a></li>
+                            <li><a href="#" className='hover:text-purple-400'><FontAwesomeIcon icon={faInstagram} /></a></li>
+                            <li><a href="#" className='hover:text-blue-700'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
                         </ul>
                     </ul>
                 </main>

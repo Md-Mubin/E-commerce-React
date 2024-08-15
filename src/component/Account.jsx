@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 const Account = () => {
   return (
@@ -26,8 +27,8 @@ const Account = () => {
               <li className='text-slate-400 font-normal'><a href="#">My Cancellation</a></li>
             </ul>
           </>
-          <ul className='mt-6'>
-            My Wishlist
+          <ul className='mt-6 hover:text-red-400'>
+            <Link to='/Whislist'>My Whislist</Link>
           </ul>
         </div>
 
