@@ -1,30 +1,31 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import Suggest1 from '../assets/Suggest1.png'
-import Suggest2 from '../assets/Suggest2.png'
-import Suggest3 from '../assets/Suggest3.png'
-import Suggest4 from '../assets/Suggest4.png'
-import Chair from '../assets/Chair.png'
-import Redshirt from '../assets/redShirt.png'
-import Desk from '../assets/desk.png'
-import Cart1 from '../assets/Cart1.png'
-import Cart2 from '../assets/Cart2.png'
-import Cart3 from '../assets/Cart3.png'
-import Cart4 from '../assets/Cart4.png'
-import ExpImage from '../assets/expImage.png'
-import BearChoc from '../assets/bearchoc.png'
-import Camera from '../assets/camera.png'
-import Car from '../assets/car.png'
-import Cosmetics from '../assets/cosmetics.png'
-import Shoes from '../assets/shoes.png'
-import PS5 from '../assets/ps5.png'
-import Woman from '../assets/woman.png'
-import Perfume from '../assets/perfume.png'
-import Speaker from '../assets/speaker.png'
+// ===================== All Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping, faCheck, faHeadphonesSimple, faShield, faStar, faTruckFast } from '@fortawesome/free-solid-svg-icons'
 import { faEye, faHeart } from '@fortawesome/free-regular-svg-icons'
+import React       from 'react'
+import Navbar      from './Navbar'
+import Footer      from './Footer'
+import Suggest1    from '../assets/Suggest1.png'
+import Suggest2    from '../assets/Suggest2.png'
+import Suggest3    from '../assets/Suggest3.png'
+import Suggest4    from '../assets/Suggest4.png'
+import Chair       from '../assets/Chair.png'
+import Redshirt    from '../assets/redShirt.png'
+import Desk        from '../assets/desk.png'
+import Cart1       from '../assets/Cart1.png'
+import Cart2       from '../assets/Cart2.png'
+import Cart3       from '../assets/Cart3.png'
+import Cart4       from '../assets/Cart4.png'
+import ExpImage    from '../assets/expImage.png'
+import BearChoc    from '../assets/bearchoc.png'
+import Camera      from '../assets/camera.png'
+import Car         from '../assets/car.png'
+import Cosmetics   from '../assets/cosmetics.png'
+import Shoes       from '../assets/shoes.png'
+import PS5         from '../assets/ps5.png'
+import Woman       from '../assets/woman.png'
+import Perfume     from '../assets/perfume.png'
+import Speaker     from '../assets/speaker.png'
 import bannerImage from '../assets/Banner_Image.jpg'
 
 const Home = () => {
@@ -32,6 +33,8 @@ const Home = () => {
         <>
             <Navbar />
             <banner className='container w-[1170px] flex justify-between mt-10'>
+
+                {/* ============= Banner Left Section ============= */}
                 <ul className='w-[218px] flex flex-col gap-4'>
                     <li className='w-[217px] hover:shadow-md hover:translate-y-[-2px]'><a href="#">Woman's Fashion</a></li>
                     <li className='w-[217px] hover:shadow-md hover:translate-y-[-2px]'><a href="#">Men's Fashion</a></li>
@@ -43,9 +46,12 @@ const Home = () => {
                     <li className='w-[217px] hover:shadow-md hover:translate-y-[-2px]'><a href="#">Groceries & Pets</a></li>
                     <li className='w-[217px] hover:shadow-md hover:translate-y-[-2px]'><a href="#">Health & Beauty</a></li>
                 </ul>
+
+                {/* ========== Banner Image ========== */}
                 <img src={bannerImage} alt="banner_image" />
             </banner>
 
+            {/* ========== Flash Sale Section ========== */}
             <section className='mt-[140px]'>
                 <main className="container w-[1170px] flex relative">
                     <div className='w-[212px] flex flex-col'>
@@ -53,6 +59,8 @@ const Home = () => {
                         <p className='absolute top-0 ml-8 text-[16px] font-semibold text-[#db4444]'>Today's</p>
                         <h3 className='text-4xl font-semibold mt-12'>Flash Sales</h3>
                     </div>
+
+                    {/* ========== Flash time part ========== */}
                     <time className='flex items-end ml-[88px] gap-[18px]'>
                         <ul>
                             <li className='text-sm font-medium'>Days</li>
@@ -81,7 +89,10 @@ const Home = () => {
                 </main>
             </section>
 
+            {/* ========== Flash Products ========== */}
             <section className='w-[1170px] container mt-10 flex justify-between'>
+
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative'>
                         <li className='w-full flex justify-end items-center'>
@@ -104,6 +115,7 @@ const Home = () => {
                     </ul>
                 </div>
 
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative z-[-100]'>
                         <li className='w-full flex justify-end items-center'>
@@ -126,6 +138,7 @@ const Home = () => {
                     </ul>
                 </div>
 
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative z-[-100]'>
                         <li className='w-full flex justify-end items-center'>
@@ -180,6 +193,7 @@ const Home = () => {
                 <button className='w-full h-[1px] bg-black'></button>
             </ul>
 
+            {/* ========== Cetagory ========== */}
             <section className='container w-[1170px] relative z-[-100]'>
                 <div className='w-[400px] flex flex-col'>
                     <box className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></box>
@@ -189,7 +203,10 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* ========== cetagory products ========== */}
             <section className='container w-[1170px] mt-[60px] flex justify-between'>
+                
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative'>
                         <li className='w-full flex justify-end items-center'>
@@ -212,6 +229,7 @@ const Home = () => {
                     </ul>
                 </div>
 
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative'>
                         <li className='w-full flex justify-end items-center'>
@@ -233,6 +251,8 @@ const Home = () => {
                         </ul>
                     </ul>
                 </div>
+
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative'>
                         <li className='w-full flex justify-end items-center'>
@@ -254,6 +274,8 @@ const Home = () => {
                         </ul>
                     </ul>
                 </div>
+
+                {/* items */}
                 <div>
                     <ul className='w-[270px] h-[250px] pt-6 px-6 bg-slate-100 rounded-xl flex flex-col items-center relative'>
                         <li className='w-full flex justify-end items-center'>
@@ -277,6 +299,7 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* ========== music ecperience part ========== */}
             <section className='container w-[1170px] mt-[140px] relative'>
                 <img src={ExpImage} alt="expImage" />
                 <div className='absolute top-[70px] left-[56px]'>
@@ -507,7 +530,10 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* ========== New arrival part ========== */}
             <section className='container w-[1170px] flex justify-between mt-[60px]'>
+
+                {/* items */}
                 <colgroup className='relative'>
                     <img src={PS5} alt="PS5_image" />
                     <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>PlayStation 5</h5>
@@ -516,7 +542,11 @@ const Home = () => {
                     <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shopps:scale-125 transition duration-300 '></span>
                     </a>
                 </colgroup>
+
+                {/* items */}
                 <colgroup className='flex flex-col gap-8'>
+
+                {/* women item */}
                     <ul className='relative'>
                         <img src={Woman} alt="woman_image" />
                         <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>Women's Collections</h5>
@@ -525,7 +555,10 @@ const Home = () => {
                         <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shopw:scale-125 transition duration-300 '></span>
                         </a>
                     </ul>
+                    
                     <ul className='flex gap-[30px]'>
+
+                        {/* speakers */}
                         <li className='relative'>
                             <img src={Speaker} alt="speaker_image" />
                             <h5 className='absolute  text-white text-2xl font-semibold bottom-[85px] ml-6'>Speakers</h5>
@@ -534,6 +567,8 @@ const Home = () => {
                             <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shops:scale-125 transition duration-300 '></span>
                             </a>
                         </li>
+
+                        {/* perfume */}
                         <li className='relative'>
                             <img src={Perfume} alt="perfume_image" />
                             <h5 className='absolute  text-white text-2xl font-semibold bottom-[85px] ml-6'>Perfume</h5>

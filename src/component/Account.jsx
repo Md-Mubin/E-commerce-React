@@ -1,18 +1,22 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import { Link } from 'react-router-dom'
+// ===================== All Imports
+import React     from 'react'
+import Navbar    from './Navbar'
+import Footer    from './Footer'
+import { Link }  from 'react-router-dom'
 
 const Account = () => {
   return (
     <>
       <Navbar />
 
+      {/* // ===================== Header ===================== */}
+
       <header className='container w-[1170px] my-20 flex justify-between '>
         <p className='font-normal text-[14px] text-slate-400'>Home / <span className='opacity-100 text-red-400 font-bold ml-2'>My Account</span></p>
         <p className='text-[14px] font-normal'>Welcome! <span className='text-red-400 font-bold'>Md Mubin</span></p>
       </header>
 
+      {/* // ===================== Accounts Parts ===================== */}
       <section className='container w-[1170px] flex justify-between'>
         <div className='font-medium text-base'>
           Manage My Account
@@ -32,6 +36,7 @@ const Account = () => {
           </ul>
         </div>
 
+        {/* // ===================== Editing Profile Section ===================== */}
         <div className='w-[870px] h-[650px] border-4 rounded py-10 px-20'>
           <p className=' text-6 text-red-400 font-medium'>Edit Your Profile</p>
           <ul className='flex flex-wrap gap-[40px] mt-4'>

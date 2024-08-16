@@ -1,9 +1,10 @@
-import React from 'react'
-import { Link } from "react-router-dom";
-import Scrolltotop from './Scrolltotop';
+// ===================== All Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark, faHeart, faPenToSquare, faStar, faUser } from '@fortawesome/free-regular-svg-icons';
 import { faArrowRightFromBracket, faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import React       from 'react'
+import { Link }    from "react-router-dom";
+import Scrolltotop from './Scrolltotop';
 
 const Navbar = () => {
     return (

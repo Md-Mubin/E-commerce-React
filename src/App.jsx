@@ -1,17 +1,18 @@
-import './App.css'
-import Home from './component/Home'
-import Sign_up from './component/Sign_up'
-import Log_in from './component/Log_in'
+// ===================== All Imports
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import Account from './component/Account'
-import Contact from './component/Contact'
-import NopageFound from './component/NopageFound'
-import About from './component/About'
-import Whislist from './component/Whislist'
-import Cart from './component/Cart'
+import Home          from './component/Home'
+import Sign_up       from './component/Sign_up'
+import Log_in        from './component/Log_in'
+import Account       from './component/Account'
+import Contact       from './component/Contact'
+import NopageFound   from './component/NopageFound'
+import About         from './component/About'
+import Whislist      from './component/Whislist'
+import Cart          from './component/Cart'
 
 function App() {
-
+  
+  // ===================== All Route Paths
   const eCommerce = createBrowserRouter(
     createRoutesFromElements(
       <Route>

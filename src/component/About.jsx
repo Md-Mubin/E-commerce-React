@@ -1,13 +1,14 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import AboutImage from '../assets/Side Image2.png'
-import Review1 from '../assets/review1.png'
-import Review2 from '../assets/review2.png'
-import Review3 from '../assets/review3.png'
+// ===================== All Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBasketShopping, faCheck, faDollar, faHeadphonesSimple, faSackDollar, faShield, faShop, faTruckFast } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import React           from 'react'
+import Navbar          from './Navbar'
+import Footer          from './Footer'
+import AboutImage      from '../assets/Side Image2.png'
+import Review1         from '../assets/review1.png'
+import Review2         from '../assets/review2.png'
+import Review3         from '../assets/review3.png'
 
 const About = () => {
     return (
