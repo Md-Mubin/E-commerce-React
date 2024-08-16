@@ -8,6 +8,7 @@ import Contact from './component/Contact'
 import NopageFound from './component/NopageFound'
 import About from './component/About'
 import Whislist from './component/Whislist'
+import Cart from './component/Cart'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/Log_In'       element={<Log_in/>}/>
         <Route path='/My_Account'   element={<Account/>}/>
         <Route path='/Whislist'     element={<Whislist/>}/>
+        <Route path='/Cart'         element={<Cart/>}/>
         <Route path='*'             element={<NopageFound/>}/>
       </Route>
     )

@@ -89,9 +89,9 @@ const About = () => {
             <section className='container w-[1170px] mt-[140px] flex justify-between'>
                 <ul>
                     <img src={Review1} alt="reviewer_image" />
-                    <h2 className='text-[32px] font-medium mt-8'>Will Smith</h2>
-                    <p className='text-base font-normal mt-2'>Product Designer</p>
-                    <li className='mt-4 flex gap-6 text-[30px]'>
+                    <h2 className='text-[32px] font-medium mt-8 text-center'>Will Smith</h2>
+                    <p className='text-base font-normal mt-2 text-center'>Product Designer</p>
+                    <li className='mt-4 flex gap-6 text-[30px] justify-center'>
                         <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
                         <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
                         <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
@@ -99,9 +99,9 @@ const About = () => {
                 </ul>
                 <ul>
                     <img src={Review2} alt="reviewer_image" />
-                    <h2 className='text-[32px] font-medium mt-8'>Emma Watson</h2>
-                    <p className='text-base font-normal mt-2'>Managing Director</p>
-                    <li className='mt-4 flex gap-6 text-[30px]'>
+                    <h2 className='text-[32px] font-medium mt-8 text-center'>Emma Watson</h2>
+                    <p className='text-base font-normal mt-2 text-center'>Managing Director</p>
+                    <li className='mt-4 flex gap-6 text-[30px] justify-center'>
                         <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
                         <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
                         <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
@@ -109,18 +109,18 @@ const About = () => {
                 </ul>
                 <ul>
                     <img src={Review3} alt="reviewer_image" />
-                    <h2 className='text-[32px] font-medium mt-8'>Tom Cruise</h2>
-                    <p className='text-base font-normal mt-2'>Founder & Chairman</p>
-                    <li className='mt-4 flex gap-6 text-[30px]'>
+                    <h2 className='text-[32px] font-medium mt-8 text-center'>Tom Cruise</h2>
+                    <p className='text-base font-normal mt-2 text-center'>Founder & Chairman</p>
+                    <li className='mt-4 flex gap-6 text-[30px] justify-center'>
                         <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
                         <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
                         <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                     </li>
                 </ul>
             </section>
-            
+
             {/* ============= Supports ============= */}
-            <section className='container w-[1170px] mt-[180px] flex justify-between'>
+            <section className='container w-[1170px] mt-[180px] flex justify-evenly'>
 
                 {/* free and fast delivery */}
                 <ul className='w-[270px] flex flex-col items-center py-[30px] '>

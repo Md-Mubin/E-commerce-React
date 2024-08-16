@@ -16,7 +16,7 @@ const Log_in = () => {
             <p className='text-[16px] font-normal mt-6'>Enter your details below</p>
           </>
           <>
-            <input type="text" placeholder='Email or Phone Number' className='mt-10 text-xl font-normal outline-none' />
+            <input type="text" placeholder='Email or Phone Number' className='mt-10 border-b-2 text-xl font-normal outline-none' />
             <input type="password" placeholder='Password' className='mt-10 border-b-2 text-xl font-normal outline-none' />
           </>
           <login className='flex justify-between items-center mt-10'>
