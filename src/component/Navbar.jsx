@@ -54,11 +54,11 @@ const Navbar = () => {
 
                     {/* =========== for icon =========== */}
                     <li className='text-[22px] cursor-pointer hover:text-red-400'><FontAwesomeIcon icon={faHeart} /></li>
-                    <li className='text-[22px]'><Link to="/Cart"><FontAwesomeIcon icon={faCartShopping} /></Link></li>
+                    <li className='text-[22px] hover:text-red-400'><Link to="/Cart"><FontAwesomeIcon icon={faCartShopping} /></Link></li>
                     <li className='w-8 h-8 rounded-full flex justify-center items-center hover:bg-red-400 hover:text-white relative group/profile'><FontAwesomeIcon icon={faUser} />
                         <ul className='w-[225px] h-[210px] bg-[#83889cab] backdrop-blur-md absolute top-[32px] right-0 rounded-lg p-5 scale-0 group-hover/profile:scale-100 transition duration-200 origin-top-right flex flex-col gap-2'>
                             <Link to='/My_Account' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faUser} className='mr-2 '/> Manage My Account</Link>
-                            <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faPenToSquare} className='mr-2 '/> My Order</a>
+                            <Link to='/Whislist' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faPenToSquare} className='mr-2 '/> My Whislist</Link>
                             <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faCircleXmark} className='mr-2 '/> My Cancellations</a>
                             <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faStar} className='mr-2 '/> My Reviews</a>
                             <a href='#' className='text-white w-full h-7 flex justify-start pl-2 items-center rounded-xl hover:bg-[#454750ab]'><FontAwesomeIcon icon = {faArrowRightFromBracket} className='mr-2 '/> Logout</a>

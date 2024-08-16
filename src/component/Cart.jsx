@@ -21,16 +21,16 @@ const Cart = () => {
 
                 <ul className='mt-10 flex justify-between items-center'>
                     <li className='flex items-center'><img src={Suggest2} alt="monitor_image" className='w-[40px]' /><span className='ml-16 mb-2 absolute'>LCD Monitor</span></li>
-                    <li>$650</li>
-                    <li><input type="number" className='border-2 w-[50px] mr-4 outline-none pl-2' /></li>
-                    <li>$650</li>
+                    <li className='ml-2'>$650</li>
+                    <li><input type="number" className='border-2 w-[50px] mr-3 outline-none pl-2' /></li>
+                    <li className='w-[40px]'>$650</li>
                 </ul>
 
                 <ul className='mt-[80px] flex justify-between items-center'>
                     <li className='flex items-center'><img src={Suggest3} alt="controller_image" className='w-[40px]' /><span className='ml-16 mb-2 absolute'>H1 Gamepad</span></li>
-                    <li>$550</li>
-                    <li><input type="number" className='border-2 w-[50px] mr-4 outline-none pl-2' /></li>
-                    <li>$1100</li>
+                    <li className='ml-2'>$550</li>
+                    <li><input type="number" className='border-2 w-[50px] mr-3 outline-none pl-2' /></li>
+                    <li className='w-[40px]'>$1100</li>
                 </ul>
 
                 <ul className='mt-[64px] flex justify-between'>

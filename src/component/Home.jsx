@@ -512,27 +512,35 @@ const Home = () => {
                     <img src={PS5} alt="PS5_image" />
                     <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>PlayStation 5</h5>
                     <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal w-[255px]'>Black and White version of the PS5 coming out on sale.</p>
-                    <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6'>Shop Now</a>
+                    <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopps'>Shop Now
+                    <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shopps:scale-125 transition duration-300 '></span>
+                    </a>
                 </colgroup>
                 <colgroup className='flex flex-col gap-8'>
                     <ul className='relative'>
                         <img src={Woman} alt="woman_image" />
                         <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>Women's Collections</h5>
                         <p className='absolute text-white bottom-[56px] ml-6 w-[255px] text-sm font-normal'>Featured woman collections that give you another vibe.</p>
-                        <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6'>Shop Now</a>
+                        <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopw'>Shop Now
+                        <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shopw:scale-125 transition duration-300 '></span>
+                        </a>
                     </ul>
                     <ul className='flex gap-[30px]'>
                         <li className='relative'>
                             <img src={Speaker} alt="speaker_image" />
                             <h5 className='absolute  text-white text-2xl font-semibold bottom-[85px] ml-6'>Speakers</h5>
                             <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal'>Amazon wireless speakers</p>
-                            <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6'>Shop Now</a>
+                            <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shops'>Shop Now
+                            <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shops:scale-125 transition duration-300 '></span>
+                            </a>
                         </li>
                         <li className='relative'>
                             <img src={Perfume} alt="perfume_image" />
                             <h5 className='absolute  text-white text-2xl font-semibold bottom-[85px] ml-6'>Perfume</h5>
                             <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal'>GUCCI INTENSE OUD EDP</p>
-                            <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6'>Shop Now</a>
+                            <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopp'>Shop Now
+                                <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shopp:scale-125 transition duration-300 '></span>
+                            </a>
                         </li>
                     </ul>
                 </colgroup>
