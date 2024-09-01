@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import signUpImage from '../assets/Side Image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBackward } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
@@ -12,7 +11,7 @@ const Log_in = () => {
       <Navbar />
 
       <main className='w-[1450px] mt-[40px] flex justify-between items-center relative'>
-        <img src={signUpImage} alt="Sign_UP_image" />
+        <img src="/Side Image.png" alt="Sign_UP_image" />
         <box className="w-[370px] flex flex-col">
           <>
             <h3 className='text-4xl font-medium'>Log in to Exclusive</h3>
@@ -27,11 +26,8 @@ const Log_in = () => {
             <a href='#' className='hover:text-[#db4444] duration-200'>Forget Password?</a>
           </login>
         </box>
-        <Link to="/Sign_up" className='absolute right-0 bottom-[150px] hover:text-red-400  duration-200 text-[17px] font-semibold'><FontAwesomeIcon icon={faBackward}/> Go Back To Sign Up</Link>
+        <Link to="/Sign_up" className='absolute right-0 bottom-[150px] hover:text-red-400  duration-200 text-[17px] font-semibold'><FontAwesomeIcon icon={faBackward} /> Go Back To Sign Up</Link>
       </main>
-
-      <section>
-      </section>
 
       <Footer />
     </>

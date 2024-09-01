@@ -5,10 +5,6 @@ import { faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-s
 import React           from 'react'
 import Navbar          from './Navbar'
 import Footer          from './Footer'
-import AboutImage      from '../assets/Side Image2.png'
-import Review1         from '../assets/review1.png'
-import Review2         from '../assets/review2.png'
-import Review3         from '../assets/review3.png'
 
 const About = () => {
     return (
@@ -23,7 +19,7 @@ const About = () => {
                     <p className='w-[525px] text-base font-normal'>Launced in 2015, Exclusive is South Asia's premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p>
                     <p className='w-[525px] text-base font-normal'>Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.</p>
                 </ul>
-                <img src={AboutImage} alt="Aboutpage_image" className='translate-x-48 z-[-1]' />
+                <img src="/Side Image2.png" alt="Aboutpage_image" className='translate-x-48 z-[-1]' />
             </div>
 
             {/* ============= Counter ============= */}
@@ -89,7 +85,7 @@ const About = () => {
             {/* ============= Reviewer ============= */}
             <section className='container w-[1170px] mt-[140px] flex justify-between'>
                 <ul>
-                    <img src={Review1} alt="reviewer_image" />
+                    <img src="/review1.png" alt="reviewer_image" />
                     <h2 className='text-[32px] font-medium mt-8 text-center'>Will Smith</h2>
                     <p className='text-base font-normal mt-2 text-center'>Product Designer</p>
                     <li className='mt-4 flex gap-6 text-[30px] justify-center'>
@@ -99,7 +95,7 @@ const About = () => {
                     </li>
                 </ul>
                 <ul>
-                    <img src={Review2} alt="reviewer_image" />
+                    <img src="/review2.png" alt="reviewer_image" />
                     <h2 className='text-[32px] font-medium mt-8 text-center'>Emma Watson</h2>
                     <p className='text-base font-normal mt-2 text-center'>Managing Director</p>
                     <li className='mt-4 flex gap-6 text-[30px] justify-center'>
@@ -109,7 +105,7 @@ const About = () => {
                     </li>
                 </ul>
                 <ul>
-                    <img src={Review3} alt="reviewer_image" />
+                    <img src="/review3.png" alt="reviewer_image" />
                     <h2 className='text-[32px] font-medium mt-8 text-center'>Tom Cruise</h2>
                     <p className='text-base font-normal mt-2 text-center'>Founder & Chairman</p>
                     <li className='mt-4 flex gap-6 text-[30px] justify-center'>

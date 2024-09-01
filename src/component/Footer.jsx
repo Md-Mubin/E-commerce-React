@@ -1,7 +1,4 @@
 import React from 'react'
-import QrCode from '../assets/Qr Code.png'
-import FooterGooglePlay from '../assets/GooglePlay.png'
-import FooterApple from '../assets/AppStore.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLocationArrow } from '@fortawesome/free-solid-svg-icons'
@@ -45,10 +42,10 @@ const Footer = () => {
                         <li className='text-xl font-medium'>Download App</li>
                         <li className='font-medium text-[12px] mt-1'>Save $3 with App New User Only
                             <ul className='pt-[10px] flex'>
-                                <img src={QrCode} alt="Qr_code" />
+                                <img src="" alt="Qr_code" />
                                 <ul>
-                                    <a href="#"><img src={FooterGooglePlay} alt="google_play" className='hover:scale-105' /></a>
-                                    <a href="#"><img src={FooterApple} alt="apple_store" className='hover:scale-105' /></a>
+                                    <a href="#"><img src="/GooglePlay.png" alt="google_play" className='hover:scale-105' /></a>
+                                    <a href="#"><img src="/AppStore.png" alt="apple_store" className='hover:scale-105' /></a>
                                 </ul>
                             </ul>
                         </li>

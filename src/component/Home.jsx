@@ -5,28 +5,6 @@ import { faEye, faHeart } from '@fortawesome/free-regular-svg-icons'
 import React       from 'react'
 import Navbar      from './Navbar'
 import Footer      from './Footer'
-import Suggest1    from '../assets/Suggest1.png'
-import Suggest2    from '../assets/Suggest2.png'
-import Suggest3    from '../assets/Suggest3.png'
-import Suggest4    from '../assets/Suggest4.png'
-import Chair       from '../assets/Chair.png'
-import Redshirt    from '../assets/redShirt.png'
-import Desk        from '../assets/desk.png'
-import Cart1       from '../assets/Cart1.png'
-import Cart2       from '../assets/Cart2.png'
-import Cart3       from '../assets/Cart3.png'
-import Cart4       from '../assets/Cart4.png'
-import ExpImage    from '../assets/expImage.png'
-import BearChoc    from '../assets/bearchoc.png'
-import Camera      from '../assets/camera.png'
-import Car         from '../assets/car.png'
-import Cosmetics   from '../assets/cosmetics.png'
-import Shoes       from '../assets/shoes.png'
-import PS5         from '../assets/ps5.png'
-import Woman       from '../assets/woman.png'
-import Perfume     from '../assets/perfume.png'
-import Speaker     from '../assets/speaker.png'
-import bannerImage from '../assets/Banner_Image.jpg'
 
 const Home = () => {
     return (
@@ -48,7 +26,7 @@ const Home = () => {
                 </ul>
 
                 {/* ========== Banner Image ========== */}
-                <img src={bannerImage} alt="banner_image" />
+                <img src="/Banner_Image.jpg" alt="banner_image" />
             </banner>
 
             {/* ========== Flash Sale Section ========== */}
@@ -98,7 +76,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Suggest3} alt="suggest_image" className='w-[120px]' />
+                        <img src="/Suggest3.png" alt="suggest_image" className='w-[120px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -121,7 +99,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Suggest4} alt="suggest_image" className='w-[120px] mt-4' />
+                        <img src="/Suggest4.png" alt="suggest_image" className='w-[120px] mt-4' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -144,7 +122,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Suggest2} alt="suggest_image" className='w-[120px] mt-4' />
+                        <img src="/Suggest2.png" alt="suggest_image" className='w-[120px] mt-4' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -167,7 +145,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Chair} alt="suggest_image" className='w-[100px]' />
+                        <img src="/Chair.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -212,7 +190,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Redshirt} alt="suggest_image" className='w-[150px]' />
+                        <img src="/redShirt.png" alt="suggest_image" className='w-[150px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -235,7 +213,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Cart1} alt="suggest_image" className='w-[150px]' />
+                        <img src="/Cart1.png" alt="suggest_image" className='w-[150px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -258,7 +236,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Cart2} alt="suggest_image" className='w-[150px] mt-8' />
+                        <img src="/Cart2.png" alt="suggest_image" className='w-[150px] mt-8' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -281,7 +259,7 @@ const Home = () => {
                         <li className='w-full flex justify-end items-center'>
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Desk} alt="suggest_image" className='w-[150px]' />
+                        <img src="/desk.png" alt="suggest_image" className='w-[150px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -301,7 +279,7 @@ const Home = () => {
 
             {/* ========== music ecperience part ========== */}
             <section className='container w-[1170px] mt-[140px] relative'>
-                <img src={ExpImage} alt="expImage" />
+                <img src="/expImage.png" alt="expImage" />
                 <div className='absolute top-[70px] left-[56px]'>
                     <a href="#" className='text-base font-semibold text-[#00ff66]'>Categories</a>
                     <h4 className='text-[48px] font-semibold text-white w-[445px] mt-8'>Enhance Your Music Experience</h4>
@@ -332,7 +310,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={BearChoc} alt="suggest_image" className='w-[100px]' />
+                        <img src="/bearchoc.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -356,7 +334,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Camera} alt="suggest_image" className='w-[100px]' />
+                        <img src="/camera.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -380,7 +358,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Suggest1} alt="suggest_image" className='w-[100px]' />
+                        <img src="/Suggest1.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -404,7 +382,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Cosmetics} alt="suggest_image" className='w-[100px]' />
+                        <img src="/cosmetics.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -428,7 +406,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Car} alt="suggest_image" className='w-[100px]' />
+                        <img src="/car.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -452,7 +430,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Shoes} alt="suggest_image" className='w-[100px]' />
+                        <img src="/shoes.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -476,7 +454,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Cart3} alt="suggest_image" className='w-[100px]' />
+                        <img src="/Cart3.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -500,7 +478,7 @@ const Home = () => {
                             <FontAwesomeIcon icon={faHeart} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                             <FontAwesomeIcon icon={faEye} className='mr-4 text-xl hover:text-red-600 cursor-pointer' />
                         </li>
-                        <img src={Cart4} alt="suggest_image" className='w-[100px]' />
+                        <img src="/Cart4.png" alt="suggest_image" className='w-[100px]' />
                         <button className='bg-black w-full h-10 rounded absolute bottom-0 text-white hover:bg-slate-700'><FontAwesomeIcon icon={faCartShopping} className='mr-2' /> Add To Cart</button>
                     </ul>
                     <ul>
@@ -535,7 +513,7 @@ const Home = () => {
 
                 {/* items */}
                 <colgroup className='relative'>
-                    <img src={PS5} alt="PS5_image" />
+                    <img src="/ps5.png" alt="PS5_image" />
                     <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>PlayStation 5</h5>
                     <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal w-[255px]'>Black and White version of the PS5 coming out on sale.</p>
                     <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopps'>Shop Now
@@ -548,7 +526,7 @@ const Home = () => {
 
                 {/* women item */}
                     <ul className='relative'>
-                        <img src={Woman} alt="woman_image" />
+                        <img src='/woman.png' alt="woman_image" />
                         <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>Women's Collections</h5>
                         <p className='absolute text-white bottom-[56px] ml-6 w-[255px] text-sm font-normal'>Featured woman collections that give you another vibe.</p>
                         <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopw'>Shop Now
@@ -560,7 +538,7 @@ const Home = () => {
 
                         {/* speakers */}
                         <li className='relative'>
-                            <img src={Speaker} alt="speaker_image" />
+                            <img src="/speaker.png" alt="speaker_image" />
                             <h5 className='absolute  text-white text-2xl font-semibold bottom-[85px] ml-6'>Speakers</h5>
                             <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal'>Amazon wireless speakers</p>
                             <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shops'>Shop Now
@@ -570,7 +548,7 @@ const Home = () => {
 
                         {/* perfume */}
                         <li className='relative'>
-                            <img src={Perfume} alt="perfume_image" />
+                            <img src="/perfume.png" alt="perfume_image" />
                             <h5 className='absolute  text-white text-2xl font-semibold bottom-[85px] ml-6'>Perfume</h5>
                             <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal'>GUCCI INTENSE OUD EDP</p>
                             <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopp'>Shop Now

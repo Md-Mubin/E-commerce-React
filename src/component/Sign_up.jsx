@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import signUpImage from '../assets/Side Image.png'
 import { Link } from 'react-router-dom'
 
 const Sign_up = () => {
@@ -10,7 +9,7 @@ const Sign_up = () => {
             <Navbar />
 
             <main className='w-[1450px] mt-[40px] flex justify-between items-center'>
-                <img src={signUpImage} alt="Sign_UP_image" />
+                <img src="/Side Image.png" alt="Sign_UP_image" />
                 <box className="w-[370px] flex flex-col">
                     <>
                         <h3 className='text-4xl font-medium'>Create an Account</h3>
