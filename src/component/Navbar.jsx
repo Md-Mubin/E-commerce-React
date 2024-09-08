@@ -1,10 +1,10 @@
 // ===================== All Imports
+import React       from 'react'
+import Scrolltotop from './Scrolltotop';
+import { Link }    from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark, faHeart, faPenToSquare, faStar, faUser } from '@fortawesome/free-regular-svg-icons';
 import { faArrowRightFromBracket, faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import React       from 'react'
-import { Link }    from "react-router-dom";
-import Scrolltotop from './Scrolltotop';
 
 const Navbar = () => {
     return (
@@ -26,21 +26,21 @@ const Navbar = () => {
             <nav className='w-full px-[365px] bg-white h-10 pt-12 pb-12 flex justify-between items-center sticky top-12 border-b-2 z-[100]'>
 
                 {/* =========== for logo =========== */}
-                <logo><Link to="/" className='text-2xl font-bold text-black'>Exclusive</Link></logo>
+                <ul><Link to="/" className='text-2xl font-bold text-black'>Exclusive</Link></ul>
 
                 {/* =========== for page links =========== */}
                 <ul className='flex justify-center items-center gap-12'>
-                    <li className='font-normal text-[16px] relative group/home hover:scale-110'><Link to="/">Home</Link>
-                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/home:scale-125 transition duration-200 '></span>
+                    <li className='font-normal text-[16px] relative group/home hover:scale-110 duration-200 will-change-transform'><Link to="/">Home</Link>
+                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/home:scale-125 duration-200 will-change-transform'></span>
                     </li>
-                    <li className='font-normal text-[16px] group/contact relative hover:scale-110'><Link to="/Contact">Contact</Link>
-                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/contact:scale-125 transition duration-200 '></span>
+                    <li className='font-normal text-[16px] group/contact relative hover:scale-110 duration-200 will-change-transform'><Link to="/Contact">Contact</Link>
+                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/contact:scale-125 duration-200 will-change-transform'></span>
                     </li>
-                    <li className='font-normal text-[16px] relative group/about hover:scale-110'><Link to="/About">About</Link>
-                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/about:scale-125 transition duration-200 '></span>
+                    <li className='font-normal text-[16px] relative group/about hover:scale-110 duration-200 will-change-transform'><Link to="/About">About</Link>
+                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/about:scale-125 duration-200 will-change-transform'></span>
                     </li>
-                    <li className='font-normal text-[16px] group/sign relative hover:scale-110'><Link to="/Sign_Up">Sign Up</Link>
-                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/sign:scale-125 transition duration-200 '></span>
+                    <li className='font-normal text-[16px] group/sign relative hover:scale-110 duration-200 will-change-transform'><Link to="/Sign_Up">Sign Up</Link>
+                        <span className='absolute w-full scale-0 h-[1px] bg-black bottom-[-5px] left-0 group-hover/sign:scale-125 duration-200 will-change-transform'></span>
                     </li>
                 </ul>
 

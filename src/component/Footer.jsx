@@ -42,7 +42,7 @@ const Footer = () => {
                         <li className='text-xl font-medium'>Download App</li>
                         <li className='font-medium text-[12px] mt-1'>Save $3 with App New User Only
                             <ul className='pt-[10px] flex'>
-                                <img src="" alt="Qr_code" />
+                                <img src="/Qr Code.png" alt="Qr_code" />
                                 <ul>
                                     <a href="#"><img src="/GooglePlay.png" alt="google_play" className='hover:scale-105' /></a>
                                     <a href="#"><img src="/AppStore.png" alt="apple_store" className='hover:scale-105' /></a>

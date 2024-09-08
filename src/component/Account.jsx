@@ -1,14 +1,10 @@
 // ===================== All Imports
 import React     from 'react'
-import Navbar    from './Navbar'
-import Footer    from './Footer'
 import { Link }  from 'react-router-dom'
 
 const Account = () => {
   return (
     <>
-      <Navbar />
-
       {/* // ===================== Header ===================== */}
 
       <header className='container w-[1170px] my-20 flex justify-between '>
@@ -69,8 +65,6 @@ const Account = () => {
           </button>
         </div>
       </section>
-
-      <Footer />
     </>
   )
 }

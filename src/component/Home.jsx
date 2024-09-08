@@ -1,16 +1,13 @@
 // ===================== All Imports
+import React               from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye, faHeart }  from '@fortawesome/free-regular-svg-icons'
 import { faCartShopping, faCheck, faHeadphonesSimple, faShield, faStar, faTruckFast } from '@fortawesome/free-solid-svg-icons'
-import { faEye, faHeart } from '@fortawesome/free-regular-svg-icons'
-import React       from 'react'
-import Navbar      from './Navbar'
-import Footer      from './Footer'
 
 const Home = () => {
     return (
         <>
-            <Navbar />
-            <banner className='container w-[1170px] flex justify-between mt-10'>
+            <main className='container w-[1170px] flex justify-between mt-10'>
 
                 {/* ============= Banner Left Section ============= */}
                 <ul className='w-[218px] flex flex-col gap-4'>
@@ -27,13 +24,13 @@ const Home = () => {
 
                 {/* ========== Banner Image ========== */}
                 <img src="/Banner_Image.jpg" alt="banner_image" />
-            </banner>
+            </main>
 
             {/* ========== Flash Sale Section ========== */}
             <section className='mt-[140px]'>
                 <main className="container w-[1170px] flex relative">
                     <div className='w-[212px] flex flex-col'>
-                        <box className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></box>
+                        <p className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></p>
                         <p className='absolute top-0 ml-8 text-[16px] font-semibold text-[#db4444]'>Today's</p>
                         <h3 className='text-4xl font-semibold mt-12'>Flash Sales</h3>
                     </div>
@@ -60,10 +57,10 @@ const Home = () => {
                             <li className='text-4xl font-bold'>56</li>
                         </ul>
                     </time>
-                    <buttons className='absolute right-0 bottom-0 flex gap-2'>
+                    <ul className='absolute right-0 bottom-0 flex gap-2'>
                         <button className='w-[46px] h-[46px] rounded-full bg-[#f5f5f5] flex justify-center items-center text-2xl pb-1'>←</button>
                         <button className='w-[46px] h-[46px] rounded-full bg-[#f5f5f5] flex justify-center items-center text-2xl pb-1'>→</button>
-                    </buttons>
+                    </ul>
                 </main>
             </section>
 
@@ -174,7 +171,7 @@ const Home = () => {
             {/* ========== Cetagory ========== */}
             <section className='container w-[1170px] relative z-[-100]'>
                 <div className='w-[400px] flex flex-col'>
-                    <box className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></box>
+                    <p className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></p>
                     <p className='absolute top-2 ml-8 text-[16px] font-semibold text-[#db4444]'>This Month</p>
                     <h3 className='text-4xl font-semibold mt-12'>Browse By Category</h3>
                     <button className='w-[160px] h-[56px] bg-red-400 rounded-lg text-white hover:bg-red-500 absolute right-0 bottom-0'>View All</button>
@@ -295,7 +292,7 @@ const Home = () => {
 
             <section className='container w-[1170px] relative z-[-100] mt-[70px]'>
                 <div className='w-[400px] flex flex-col'>
-                    <box className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></box>
+                    <p className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></p>
                     <p className='absolute top-2 ml-8 text-[16px] font-semibold text-[#db4444]'>Our Products</p>
                     <h3 className='text-4xl font-semibold mt-12'>Explore Our Products</h3>
                 </div>
@@ -502,7 +499,7 @@ const Home = () => {
 
             <section className='container w-[1170px] relative mt-[140px]'>
                 <div className='w-[400px] flex flex-col'>
-                    <box className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></box>
+                    <p className='w-5 h-10 bg-[#db4444] rounded-[4px] absolute'></p>
                     <p className='absolute top-2 ml-8 text-[16px] font-semibold text-[#db4444]'>Features</p>
                     <h3 className='text-4xl font-semibold mt-12'>New Arrival </h3>
                 </div>
@@ -512,17 +509,17 @@ const Home = () => {
             <section className='container w-[1170px] flex justify-between mt-[60px]'>
 
                 {/* items */}
-                <colgroup className='relative'>
+                <ul className='relative'>
                     <img src="/ps5.png" alt="PS5_image" />
                     <h5 className='absolute  text-white text-2xl font-semibold bottom-[124px] ml-6'>PlayStation 5</h5>
                     <p className='absolute text-white bottom-[56px] ml-6 text-sm font-normal w-[255px]'>Black and White version of the PS5 coming out on sale.</p>
                     <a href="#" className='absolute text-white text-base font-medium bottom-6 ml-6 group/shopps'>Shop Now
                     <span className='absolute w-full h-[1px] bg-white bottom-[-5px] left-0 scale-0 group-hover/shopps:scale-125 transition duration-300 '></span>
                     </a>
-                </colgroup>
+                </ul>
 
                 {/* items */}
-                <colgroup className='flex flex-col gap-8'>
+                <ul className='flex flex-col gap-8'>
 
                 {/* women item */}
                     <ul className='relative'>
@@ -556,7 +553,7 @@ const Home = () => {
                             </a>
                         </li>
                     </ul>
-                </colgroup>
+                </ul>
             </section>
 
             {/* ============= Supports ============= */}
@@ -605,8 +602,6 @@ const Home = () => {
                     </li>
                 </ul>
             </section>
-
-            <Footer />
         </>
     )
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping, faTrash, faStar } from '@fortawesome/free-solid-svg-icons'
@@ -8,11 +6,9 @@ import { faCartShopping, faTrash, faStar } from '@fortawesome/free-solid-svg-ico
 const Whislist = () => {
     return (
         <>
-            <Navbar />
-
             {/* =============== header =============== */}
             <header className='container w-[1170px] my-20 flex justify-between '>
-                <p className='font-normal text-[14px] text-slate-400 flex items-center'>My Profile / <p className='opacity-100 text-red-400 font-bold ml-2'>My Whislist</p></p>
+                <p className='font-normal text-[14px] text-slate-400 flex items-center'>My Profile / <span className='opacity-100 text-red-400 font-bold ml-2'>My Whislist</span></p>
                 <button className='text-[14px] font-semibold border-2 w-[225px] h-[56px] rounded-lg hover:translate-y-[-3px] duration-200 hover:bg-red-400 hover:text-white'>Move All To Blog</button>
             </header>
 
@@ -178,8 +174,6 @@ const Whislist = () => {
                     </ul>
                 </div>
             </section>
-
-            <Footer/>
         </>
     )
 }

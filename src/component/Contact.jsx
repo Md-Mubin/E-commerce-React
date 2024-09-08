@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
@@ -8,8 +6,6 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 const Contact = () => {
     return (
         <>
-            <Navbar />
-
             <p className='font-normal text-[14px] text-slate-400 container w-[1170px] my-20 '>Home / <span className='opacity-100 text-black font-normal ml-2'>Contact</span></p>
 
             <main className='container w-[1170px] flex justify-between'>
@@ -48,10 +44,7 @@ const Contact = () => {
                     <button className='w-[215px] h-[55px] bg-red-400 rounded text-white hover:bg-red-600 duration-100'>Send Massage</button>
                     </li>
                 </ul>
-
             </main>
-
-            <Footer />
         </>
     )
 }

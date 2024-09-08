@@ -1,16 +1,12 @@
 // ===================== All Imports
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBasketShopping, faCheck, faDollar, faHeadphonesSimple, faSackDollar, faShield, faShop, faTruckFast } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import React           from 'react'
-import Navbar          from './Navbar'
-import Footer          from './Footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faBasketShopping, faCheck, faDollar, faHeadphonesSimple, faSackDollar, faShield, faShop, faTruckFast } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
     return (
         <>
-            <Navbar />
-
             {/* ============= Header ============= */}
             <p className='font-normal text-[14px] text-slate-400 container w-[1170px] my-20 '>Home / <span className='opacity-100 text-black font-normal ml-2'>About</span></p>
             <div className='container w-[1170px] flex justify-between'>
@@ -162,8 +158,6 @@ const About = () => {
                     </li>
                 </ul>
             </section>
-            
-            <Footer />
         </>
     )
 }

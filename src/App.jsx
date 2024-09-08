@@ -9,6 +9,7 @@ import NopageFound   from './component/NopageFound'
 import About         from './component/About'
 import Whislist      from './component/Whislist'
 import Cart          from './component/Cart'
+import LayOut from './Layout/LayOut'
 
 function App() {
   
@@ -16,7 +17,8 @@ function App() {
   const eCommerce = createBrowserRouter(
     createRoutesFromElements(
       <Route>
-        <Route path='/'             element={<Home/>}/>
+        <Route path='/'             element={<LayOut/>}>
+        <Route index                element={<Home/>}/>
         <Route path='/Contact'      element={<Contact/>}/>
         <Route path='/About'        element={<About/>}/>
         <Route path='/Sign_Up'      element={<Sign_up/>}/>
@@ -25,6 +27,7 @@ function App() {
         <Route path='/Whislist'     element={<Whislist/>}/>
         <Route path='/Cart'         element={<Cart/>}/>
         <Route path='*'             element={<NopageFound/>}/>
+        </Route>
       </Route>
     )
   )

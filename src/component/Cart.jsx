@@ -1,12 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer';
 
 const Cart = () => {
     return (
         <>
-            <Navbar />
-
             <p className='container w-[1170px] font-normal text-[14px] text-slate-400 mt-20'>Home / <span className='opacity-100 text-black font-bold ml-2'>Cart</span></p>
 
             <section className='container w-[1170px] mt-20 px-10'>
@@ -63,7 +59,6 @@ const Cart = () => {
                     </ul>
                 </ul>
             </section>
-            <Footer />
         </>
     )
 }
